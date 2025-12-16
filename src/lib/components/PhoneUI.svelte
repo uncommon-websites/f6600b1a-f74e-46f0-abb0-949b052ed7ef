@@ -18,101 +18,97 @@
     </div>
 
     <!-- App Content -->
-    <div class="flex-1 overflow-y-auto pt-12 px-6 pb-6 text-xs font-medium select-none scrollbar-hide">
+    <div class="flex-1 overflow-y-auto pt-12 px-5 pb-6 text-xs font-medium select-none scrollbar-hide">
       <!-- Header -->
-      <div class="flex justify-between items-baseline mb-6 mt-2">
-        <h2 class="text-3xl font-bold tracking-tight">Mon<span class="text-red-500 ml-0.5">•</span></h2>
-        <div class="text-gray-400 text-[10px] uppercase tracking-wide text-right leading-tight font-semibold">
-          December 9<br>2024
+      <div class="mb-5 mt-2">
+        <h2 class="text-2xl font-bold tracking-tight mb-1">This Weekend</h2>
+        <div class="flex items-center gap-2 text-[11px] text-gray-500">
+          <span>📍 Brooklyn, NY</span>
+          <span>•</span>
+          <span>Ages 0-3</span>
         </div>
       </div>
 
-      <!-- Calendar Strip -->
-      <div class="flex justify-between mb-8 text-[10px] text-gray-400 font-semibold">
-        <div class="flex flex-col items-center gap-1.5">
-          <span class="w-7 h-7 rounded-full bg-black text-white flex items-center justify-center font-bold text-xs">9</span>
-          <span class="text-black font-bold tracking-wide">MON</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">10</span>
-          <span class="tracking-wide">TUE</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">11</span>
-          <span class="tracking-wide">WED</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">12</span>
-          <span class="tracking-wide">THU</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">13</span>
-          <span class="tracking-wide">FRI</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">14</span>
-          <span class="tracking-wide">SAT</span>
-        </div>
-        <div class="flex flex-col items-center gap-1.5 opacity-50">
-          <span class="h-7 flex items-center justify-center text-xs">15</span>
-          <span class="tracking-wide">SUN</span>
-        </div>
+      <!-- Filter Pills -->
+      <div class="flex gap-2 mb-5 text-[10px] font-semibold overflow-x-auto scrollbar-hide pb-1">
+        <div class="px-3 py-1.5 bg-black text-white rounded-full whitespace-nowrap">All Activities</div>
+        <div class="px-3 py-1.5 bg-gray-100 text-gray-600 rounded-full whitespace-nowrap">Indoor</div>
+        <div class="px-3 py-1.5 bg-gray-100 text-gray-600 rounded-full whitespace-nowrap">Outdoor</div>
+        <div class="px-3 py-1.5 bg-gray-100 text-gray-600 rounded-full whitespace-nowrap">Free</div>
       </div>
 
-      <!-- List -->
-      <div class="space-y-5">
-        <!-- Item 1 -->
-        <div class="flex items-center gap-4">
-          <span class="text-red-500 text-lg leading-none">✻</span>
-          <span class="font-semibold text-sm">Daria's 20th Birthday</span>
-        </div>
-
-        <!-- Item 2 -->
-        <div class="flex items-center gap-4 justify-between group">
-          <div class="flex items-center gap-4">
-            <span class="text-yellow-500 text-lg leading-none">☀</span>
-            <span class="text-sm font-medium">Wake up</span>
+      <!-- Activity Cards -->
+      <div class="space-y-4">
+        <!-- Activity 1 -->
+        <div class="bg-gray-50 rounded-2xl p-4 space-y-2">
+          <div class="flex justify-between items-start">
+            <div class="flex-1">
+              <h3 class="font-bold text-sm mb-1">Story Time at Library</h3>
+              <p class="text-[11px] text-gray-500 leading-relaxed">Interactive reading session for toddlers with songs and movement</p>
+            </div>
+            <div class="text-lg ml-2">📚</div>
           </div>
-          <span class="text-gray-300 font-medium">09:00</span>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[9px] font-serif italic">Aa</span>
-            <span class="text-sm font-medium">Design Crit</span>
+          <div class="flex items-center gap-3 text-[10px] text-gray-600 font-medium">
+            <span>📍 0.8 mi</span>
+            <span>•</span>
+            <span>⏱️ 30 min</span>
+            <span>•</span>
+            <span class="text-green-600 font-semibold">Free</span>
           </div>
-          <span class="text-gray-300 font-medium">10:00</span>
         </div>
 
-        <!-- Item 4 -->
-        <div class="flex items-center gap-4 justify-between">
-          <div class="flex items-center gap-4">
-            <span class="text-gray-400 border border-gray-300 rounded-[4px] w-5 h-5 flex items-center justify-center text-[10px] -rotate-90">✂</span>
-            <span class="text-sm font-medium">Haircut with Vincent</span>
+        <!-- Activity 2 -->
+        <div class="bg-gray-50 rounded-2xl p-4 space-y-2">
+          <div class="flex justify-between items-start">
+            <div class="flex-1">
+              <h3 class="font-bold text-sm mb-1">Prospect Park Playground</h3>
+              <p class="text-[11px] text-gray-500 leading-relaxed">Toddler-safe play area with swings, sandbox, and shade</p>
+            </div>
+            <div class="text-lg ml-2">🌳</div>
           </div>
-          <span class="text-gray-300 font-medium">13:00</span>
-        </div>
-
-        <!-- Item 5 -->
-        <div class="flex items-center gap-4">
-          <span class="text-black border-[1.5px] border-black rounded-full w-5 h-5 flex items-center justify-center text-[10px] font-bold">✓</span>
-          <span class="text-sm font-medium line-through text-gray-400">Make pasta</span>
-        </div>
-
-        <!-- Item 6 -->
-        <div class="flex items-center gap-4 text-gray-400">
-          <span class="border-[1.5px] border-dashed border-gray-300 rounded-full w-5 h-5"></span>
-          <span class="text-sm font-medium">Pushups x100</span>
-        </div>
-
-        <!-- Item 7 -->
-        <div class="flex items-center gap-4 justify-between text-gray-400">
-          <div class="flex items-center gap-4">
-            <span class="text-purple-400 text-lg leading-none">☾</span>
-            <span class="text-black text-sm font-medium">Wind down</span>
+          <div class="flex items-center gap-3 text-[10px] text-gray-600 font-medium">
+            <span>📍 1.2 mi</span>
+            <span>•</span>
+            <span>⏱️ 1-2 hrs</span>
+            <span>•</span>
+            <span class="text-green-600 font-semibold">Free</span>
           </div>
-          <span class="text-gray-300 font-medium">21:00</span>
+        </div>
+
+        <!-- Activity 3 -->
+        <div class="bg-gray-50 rounded-2xl p-4 space-y-2">
+          <div class="flex justify-between items-start">
+            <div class="flex-1">
+              <h3 class="font-bold text-sm mb-1">Music Together Class</h3>
+              <p class="text-[11px] text-gray-500 leading-relaxed">Parent-child music class with instruments and movement</p>
+            </div>
+            <div class="text-lg ml-2">🎵</div>
+          </div>
+          <div class="flex items-center gap-3 text-[10px] text-gray-600 font-medium">
+            <span>📍 0.5 mi</span>
+            <span>•</span>
+            <span>⏱️ 45 min</span>
+            <span>•</span>
+            <span>$15</span>
+          </div>
+        </div>
+
+        <!-- Activity 4 -->
+        <div class="bg-gray-50 rounded-2xl p-4 space-y-2">
+          <div class="flex justify-between items-start">
+            <div class="flex-1">
+              <h3 class="font-bold text-sm mb-1">Children's Museum</h3>
+              <p class="text-[11px] text-gray-500 leading-relaxed">Sensory play areas designed for crawlers and walkers</p>
+            </div>
+            <div class="text-lg ml-2">🎨</div>
+          </div>
+          <div class="flex items-center gap-3 text-[10px] text-gray-600 font-medium">
+            <span>📍 2.1 mi</span>
+            <span>•</span>
+            <span>⏱️ 2-3 hrs</span>
+            <span>•</span>
+            <span>$12</span>
+          </div>
         </div>
       </div>
     </div>

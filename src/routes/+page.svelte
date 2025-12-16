@@ -2,9 +2,9 @@
   import Header from '$lib/components/Header.svelte';
   import Button from '$lib/components/Button.svelte';
   import Apple from '$lib/components/icons/Apple.svelte';
-  import PlannerIcon from '$lib/components/icons/PlannerIcon.svelte';
-  import LightningIcon from '$lib/components/icons/LightningIcon.svelte';
-  import MindIcon from '$lib/components/icons/MindIcon.svelte';
+  import MapPinIcon from '$lib/components/icons/MapPinIcon.svelte';
+  import CalendarIcon from '$lib/components/icons/CalendarIcon.svelte';
+  import ToddlerIcon from '$lib/components/icons/ToddlerIcon.svelte';
   import Laurel from '$lib/components/icons/Laurel.svelte';
   import PhoneUI from '$lib/components/PhoneUI.svelte';
 </script>
@@ -15,28 +15,28 @@
   <main class="flex flex-col items-center w-full">
     <!-- Hero Section -->
     <section class="flex flex-col items-center text-center pt-10 pb-12 px-4 max-w-4xl mx-auto">
-      <h2 class="text-sm font-semibold mb-6">Joi Planner</h2>
+      <h2 class="text-sm font-semibold mb-6">Toddle</h2>
       
       <h1 class="text-5xl md:text-7xl font-bold tracking-tight leading-[1.1] mb-10">
         <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2">
-          <span>The daily</span>
+          <span>Find</span>
           <span class="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-gray-100 rounded-2xl align-middle mx-1">
-            <PlannerIcon className="w-6 h-6 md:w-8 md:h-8" />
+            <CalendarIcon className="w-6 h-6 md:w-8 md:h-8" />
           </span>
-          <span>planner</span>
+          <span>weekend</span>
         </div>
         <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2">
-          <span>to keep</span>
+          <span>activities for</span>
           <span class="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-gray-100 rounded-2xl align-middle mx-1">
-            <LightningIcon className="w-6 h-6 md:w-8 md:h-8" />
+            <ToddlerIcon className="w-6 h-6 md:w-8 md:h-8" />
           </span>
-          <span>distracted</span>
+          <span>toddlers</span>
         </div>
         <div class="flex flex-wrap justify-center items-center gap-x-3 gap-y-2">
           <span class="inline-flex items-center justify-center w-12 h-12 md:w-16 md:h-16 bg-gray-100 rounded-2xl align-middle mx-1">
-            <MindIcon className="w-6 h-6 md:w-8 md:h-8" />
+            <MapPinIcon className="w-6 h-6 md:w-8 md:h-8" />
           </span>
-          <span>minds on track</span>
+          <span>near you</span>
         </div>
       </h1>
 
@@ -52,16 +52,16 @@
         <div class="flex items-center gap-2">
           <Laurel className="w-6 h-12 md:w-8 md:h-16 scale-x-[-1]" />
           <div class="flex flex-col items-center leading-tight">
-            <span class="text-[8px] md:text-[10px] text-gray-300 mb-0.5">Featured by Apple</span>
-            <span class="font-bold text-gray-300">App of the Day</span>
+            <span class="text-[8px] md:text-[10px] text-gray-300 mb-0.5">Trusted by</span>
+            <span class="font-bold text-gray-300">50K+ Parents</span>
           </div>
           <Laurel className="w-6 h-12 md:w-8 md:h-16" />
         </div>
         <div class="flex items-center gap-2">
           <Laurel className="w-6 h-12 md:w-8 md:h-16 scale-x-[-1]" />
           <div class="flex flex-col items-center leading-tight">
-            <span class="text-[8px] md:text-[10px] text-gray-300 mb-0.5">Featured by Apple</span>
-            <span class="font-bold text-gray-300">Editors Choice</span>
+            <span class="text-[8px] md:text-[10px] text-gray-300 mb-0.5">Curating</span>
+            <span class="font-bold text-gray-300">Local Activities</span>
           </div>
           <Laurel className="w-6 h-12 md:w-8 md:h-16" />
         </div>
@@ -84,19 +84,19 @@
     <section class="max-w-4xl mx-auto px-6 pb-32 space-y-24 text-center">
       <div class="space-y-6">
         <h3 class="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
-          Joi Planner is an all-in-one app that brings together your calendar, to-do list, and habit tracker into a single timeline
+          Toddle delivers curated weekend activities for toddlers through location-based filtering and age-appropriate recommendations
         </h3>
       </div>
 
       <div class="space-y-6">
         <h3 class="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
-          Seamlessly integrated with the Apple ecosystem, Joi syncs effortlessly with your calendars and reminders.
+          Every activity is filtered for practical logistics — nap schedules, diaper changes, parking, and facilities that matter to parents
         </h3>
       </div>
 
       <div class="space-y-10">
         <h3 class="text-3xl md:text-5xl font-bold tracking-tight leading-tight">
-          Designed with simplicity in mind, the app aims to create an easy to use experience, allowing you to focus a busy mind on what truly matters — your day ahead.
+          Transform "What do we do this weekend?" from a source of stress into an opportunity for joy with your little one
         </h3>
         
         <div class="pt-4">
