@@ -1,27 +1,27 @@
 <script>
     const logos = [
-        { name: 'Angi', hasCaseStudy: false },
-        { name: 'chime', hasCaseStudy: true, caseStudyText: 'CASE STUDY' },
-        { name: 'Airwallex', hasCaseStudy: false },
-        { name: 'ramp', hasCaseStudy: true, icon: true, caseStudyText: 'CASE STUDY' },
-        { name: 'carta', hasCaseStudy: true, caseStudyText: 'CASE STUDY' },
-        { name: 'upwork', hasCaseStudy: false },
-        { name: 'klaviyo', hasCaseStudy: false },
-        { name: 'Notion', hasCaseStudy: false, icon: true },
-        { name: 'HubSpot', hasCaseStudy: false },
-        { name: 'Hard Rock', hasCaseStudy: false },
-        { name: 'MAGELLAN JETS', hasCaseStudy: false },
-        { name: 'logo_circle', hasCaseStudy: false, isImage: true }, // Placeholder for the black circle logo
-        { name: 'sproutsocial', hasCaseStudy: false, icon: true },
-        { name: 'GONG', hasCaseStudy: false, icon: true },
-        { name: 'Sage', hasCaseStudy: false }
+        { name: 'Grab', hasCaseStudy: false },
+        { name: 'Shopee', hasCaseStudy: true, caseStudyText: 'SPEED STORY' },
+        { name: 'Lazada', hasCaseStudy: false },
+        { name: 'GCash', hasCaseStudy: true, icon: true, caseStudyText: 'SPEED STORY' },
+        { name: 'NinjaVan', hasCaseStudy: true, caseStudyText: 'SPEED STORY' },
+        { name: 'Carousell', hasCaseStudy: false },
+        { name: 'Zalora', hasCaseStudy: false },
+        { name: 'ShopBack', hasCaseStudy: false, icon: true },
+        { name: 'Traveloka', hasCaseStudy: false },
+        { name: 'Klook', hasCaseStudy: false },
+        { name: 'Pomelo', hasCaseStudy: false },
+        { name: 'logo_circle', hasCaseStudy: false, isImage: true }, 
+        { name: 'StoreHub', hasCaseStudy: false, icon: true },
+        { name: 'Xendit', hasCaseStudy: false, icon: true },
+        { name: 'Aspire', hasCaseStudy: false }
     ];
 </script>
 
 <section class="py-12 bg-white border-b border-gray-200 font-sans">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p class="text-center text-[10px] uppercase tracking-widest text-brand-green font-bold mb-8">
-            JOIN THE BEST BRANDS IN THE WORLD WINNING ON AIROPS
+            HELPING SOUTHEAST ASIA'S FASTEST GROWING COMPANIES SCALE WITH AI
         </p>
 
         <div class="grid grid-cols-2 md:grid-cols-5 gap-0 border-t border-l border-gray-200">
